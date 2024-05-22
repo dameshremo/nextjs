@@ -1,10 +1,8 @@
 import Image from "next/image";
 
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* Other JSX elements */}
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
@@ -115,9 +113,9 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">5 Most Favourite Tasks:</h2>
         <ol className="list-decimal list-inside">
           <li className="mb-2">
-            <strong>Dig through logs to troubleshoot a customer&apos;s broken project.</strong>
+            <strong>Dig through logs to troubleshoot a customer's broken project.</strong>
             <p>
-              I enjoy finding the root cause of issues, as it&apos;s like solving a puzzle. This process is not only engaging but also helps me improve my technical understanding of how systems work.
+              I enjoy finding the root cause of issues, as it's like solving a puzzle. This process is not only engaging but also helps me improve my technical understanding of how systems work.
             </p>
           </li>
           <li className="mb-2">
@@ -179,7 +177,6 @@ export default function Home() {
               I believe the manager is best suited for recruitment, as they have a broader understanding of team dynamics and needs. Additionally, it helps build good professional relationships within the team.
             </p>
           </li>
-          {/* Other list items */}
         </ol>
       </div>
     </main>

@@ -144,6 +144,41 @@ export default function Home() {
           </li>
         </ol>
       </div>
+      <div className="w-full max-w-5xl mt-8">
+        <h2 className="text-2xl font-semibold mb-4">5 Least Favourite Support Tasks:</h2>
+        <ol className="list-decimal list-inside">
+          <li className="mb-2">
+            <strong>Help resolve billing issues for customers.</strong>
+            <p>
+               While I don’t dislike resolving billing issues, I find them straightforward and lacking in challenge.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Work with potential customers to determine if Vercel is suitable for their use case.</strong>
+            <p>
+              I find it difficult to tell customers that Vercel may not be suitable for their needs. I always want to provide all necessary tools and solutions, but I understand that this is not always possible.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Create video tutorials to help teach users a specific feature or use case.</strong>
+            <p>
+               I'm concerned that I might not come across well on video or that my voice may not be captivating. However, I do see the value in creating video tutorials and have considered making my own YouTube tutorial in the future.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Analyze hundreds of support tickets to spot trends for the product team.</strong>
+            <p>
+              This task is time-consuming and could be handled by a dedicated team. As a CSE, I believe my time would be better spent directly assisting customers. Trends can be discussed in team meetings to confirm their validity before being presented to the product team.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Find and recruit teammates for the support team.</strong>
+            <p>
+              I believe the manager is best suited for recruitment, as they have a broader understanding of team dynamics and needs. Additionally, it helps build good professional relationships within the team.
+            </p>
+          </li>
+        </ol>
+      </div>
     </main>
   );
 }

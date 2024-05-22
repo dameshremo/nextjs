@@ -113,12 +113,10 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">5 Most Favourite Tasks:</h2>
         <ol className="list-decimal list-inside">
           <li className="mb-2">
-            <React.Fragment>
             <strong>Dig through logs to troubleshoot a customer's broken project.</strong>
             <p>
               I enjoy finding the root cause of issues, as it's like solving a puzzle. This process is not only engaging but also helps me improve my technical understanding of how systems work.
             </p>
-              </React.Fragment>
           </li>
           <li className="mb-2">
             <strong>Write and maintain support articles and documentation pages.</strong>
@@ -139,12 +137,10 @@ export default function Home() {
             </p>
           </li>
           <li className="mb-2">
-            <React.Fragment>
             <strong>Help train and onboard new support teammates.</strong>
             <p>
               Training new teammates is an opportunity to build a strong team by sharing essential knowledge about our systems, common issues, and internal processes. A strong team leads to a strong company, which ultimately enhances customer experience. Additionally, it helps build good professional relationships within the team.
             </p>
-            </React.Fragment>
           </li>
         </ol>
       </div>
@@ -152,12 +148,10 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">5 Least Favourite Support Tasks:</h2>
         <ol className="list-decimal list-inside">
           <li className="mb-2">
-            <React.Fragment>
             <strong>Help resolve billing issues for customers.</strong>
             <p>
                While I don’t dislike resolving billing issues, I find them straightforward and lacking in challenge.
             </p>
-            </React.Fragment>
           </li>
           <li className="mb-2">
             <strong>Work with potential customers to determine if Vercel is suitable for their use case.</strong>
@@ -166,28 +160,22 @@ export default function Home() {
             </p>
           </li>
           <li className="mb-2">
-            <React.Fragment>
             <strong>Create video tutorials to help teach users a specific feature or use case.</strong>
             <p>
                I'm concerned that I might not come across well on video or that my voice may not be captivating. However, I do see the value in creating video tutorials and have considered making my own YouTube tutorial in the future.
             </p>
-            </React.Fragment>
           </li>
           <li className="mb-2">
-            <React.Fragment>
             <strong>Analyze hundreds of support tickets to spot trends for the product team.</strong>
             <p>
               This task is time-consuming and could be handled by a dedicated team. As a CSE, I believe my time would be better spent directly assisting customers. Trends can be discussed in team meetings to confirm their validity before being presented to the product team.
             </p>
-            </React.Fragment>
           </li>
           <li className="mb-2">
-            <React.Fragment>
             <strong>Find and recruit teammates for the support team.</strong>
             <p>
               I believe the manager is best suited for recruitment, as they have a broader understanding of team dynamics and needs. Additionally, it helps build good professional relationships within the team.
             </p>
-            </React.Fragment>
           </li>
         </ol>
       </div>

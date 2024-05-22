@@ -150,7 +150,7 @@ export default function Home() {
           <li className="mb-2">
             <strong>Help resolve billing issues for customers.</strong>
             <p>
-               While I don’t dislike resolving billing issues, I find them straightforward and lacking in challenge.
+               While I dont dislike resolving billing issues, I find them straightforward and lacking in challenge.
             </p>
           </li>
           <li className="mb-2">

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
@@ -107,6 +107,42 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div>
+
+      <div className="w-full max-w-5xl mt-8">
+        <h2 className="text-2xl font-semibold mb-4">5 Most Favourite Tasks:</h2>
+        <ol className="list-decimal list-inside">
+          <li className="mb-2">
+            <strong>Dig through logs to troubleshoot a customer's broken project.</strong>
+            <p>
+              I enjoy finding the root cause of issues, as it's like solving a puzzle. This process is not only engaging but also helps me improve my technical understanding of how systems work.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Write and maintain support articles and documentation pages.</strong>
+            <p>
+              Writing and maintaining documentation allows me to gain a deeper understanding of how applications and services are set up, including their limitations. This knowledge is invaluable for answering customer queries effectively.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Work with the product team to develop new features based on customer feedback.</strong>
+            <p>
+              Customer feedback is essential for product and business improvement. Collaborating with the product team to incorporate this feedback helps provide the best experience for our customers and demonstrates that we genuinely care about their needs.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Act as a dedicated Customer Support Engineer (CSE) for key customers to ensure their success using Vercel.</strong>
+            <p>
+              Building strong relationships with key customers and understanding their infrastructure is very rewarding. It enables me to address their concerns more effectively and fosters a direct connection that facilitates quicker resolution of issues.
+            </p>
+          </li>
+          <li className="mb-2">
+            <strong>Help train and onboard new support teammates.</strong>
+            <p>
+              Training new teammates is an opportunity to build a strong team by sharing essential knowledge about our systems, common issues, and internal processes. A strong team leads to a strong company, which ultimately enhances customer experience. Additionally, it helps build good professional relationships within the team.
+            </p>
+          </li>
+        </ol>
       </div>
     </main>
   );

@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from "next/image";
 
 export default function Home() {
@@ -114,9 +113,9 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">5 Most Favourite Tasks:</h2>
         <ol className="list-decimal list-inside">
           <li className="mb-2">
-            <strong>Dig through logs to troubleshoot a customer's broken project.</strong>
+            <strong>Dig through logs to troubleshoot a customer&apos;s broken project.</strong>
             <p>
-              I enjoy finding the root cause of issues, as it's like solving a puzzle. This process is not only engaging but also helps me improve my technical understanding of how systems work.
+              I enjoy finding the root cause of issues, as it&apos;s like solving a puzzle. This process is not only engaging but also helps me improve my technical understanding of how systems work.
             </p>
           </li>
           <li className="mb-2">
@@ -163,7 +162,7 @@ export default function Home() {
           <li className="mb-2">
             <strong>Create video tutorials to help teach users a specific feature or use case.</strong>
             <p>
-               I'm concerned that I might not come across well on video or that my voice may not be captivating. However, I do see the value in creating video tutorials and have considered making my own YouTube tutorial in the future.
+               I&apos;m concerned that I might not come across well on video or that my voice may not be captivating. However, I do see the value in creating video tutorials and have considered making my own YouTube tutorial in the future.
             </p>
           </li>
           <li className="mb-2">

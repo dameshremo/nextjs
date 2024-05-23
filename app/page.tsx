@@ -174,7 +174,7 @@ export default function Home() {
           <li className="mb-2">
             <strong>Find and recruit teammates for the support team.</strong>
             <p>
-              I believe the manager is best suited for recruitment, as they have a broader understanding of team dynamics and needs. Additionally, it helps build good professional relationships within the team.
+              I believe the manager is best suited for recruitment, as they have a broader understanding of team dynamics and needs.
             </p>
           </li>
         </ol>

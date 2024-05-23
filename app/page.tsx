@@ -210,9 +210,9 @@ Middleware with Vercel?:</h2>
         <li className="mb-2">
           <p>
           Edge Functions: These functions are executed at Vercel&apos;s edge locations close to the user&apos;s origin, providing low latency .  Edge Functions are ideal for scenarios where speed, efficiency, and low latency are crucial, making them suitable for tasks like data fetching or rewrites.
-
-Serverless Functions: Are more mature and widely used, offering global low latency and supporting various regions. They are suitable for scenarios where traditional serverless functions are required, providing flexibility and scalability. However, they may have cold start issues and certain limitations compared to Edge Functions.
-
+          </p>
+          <p>Serverless Functions: Are more mature and widely used, offering global low latency and supporting various regions. They are suitable for scenarios where traditional serverless functions are required, providing flexibility and scalability. However, they may have cold start issues and certain limitations compared to Edge Functions.</p>
+          <p>
 Edge Middleware: This intercepts requests before they reach serverless functions, allowing for modifications or updates to requests close to the user&apos;s origin. Edge Middleware runs on Vercel&apos;s edge locations and can be used in conjunction with Serverless functions. It is beneficial for scenarios where intercepting requests and making changes before processing them in serverless functions is necessary.
           </p>
         </li>

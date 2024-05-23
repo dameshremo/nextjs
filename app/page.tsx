@@ -179,6 +179,219 @@ export default function Home() {
           </li>
         </ol>
       </div>
-    </main>
+      <div className="w-full max-w-5xl mt-8">
+  <h2 className="text-2xl font-semibold mb-4">
+    2.What do you want to learn or do more of at work?
+  </h2>
+  <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+    <li className="mb-2">
+      <p>
+        I am very eager to dive deeper into all the technologies, tools, and documentation related to this role. I believe that mastering these areas is crucial for delivering high-quality work and contributing effectively to the team. I am committed to giving my 100 percent to the work.
+      </p>
+    </li>
+  </ol>
+</div>
+      <div className="w-full max-w-5xl mt-8">
+        <h2 className="text-2xl font-semibold mb-4">3. Describe how you solved a challenge or technical issue that you faced in a previous role
+(preferably in a previous support role). How did you determine that your solution was
+successful?:</h2>
+        <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+          <li className="mb-2">
+            <p>
+               My customer had an issue with connecting their Database cluster from the Kubernetes cluster pod, customer did not make any recent changes but was not able to connect but it was working before. I began by collecting all relevant information from the customer. This included timestamps, screenshots of the error, and the steps to replicate the issue. To diagnose the problem, I attempted to replicate the issue on my end by launching a pod in the same region as the customer&apos;s Kubernetes cluster. I was able to successfully connect to the Database cluster, indicating that the issue was specific to the customer&apos;s setup and not a global issue. I collected logs from the pod and conducted an initial analysis. Given the nature of the logs and my findings, I suspected that the issue might be internal and beyond a typical support fix.I escalated the issue to the Engineering team, providing all the logs and detailed information I had gathered. Collaborating closely with the engineers, we determined that the issue was related to the DNS pod. Based on our findings, we advised the customer to change the hostname to a public DNS. This adjustment resolved the issue, confirming that our diagnosis and solution were correct.
+            </p>
+          </li>
+      </ol>
+    </div>
+    <div className="w-full max-w-5xl mt-8">
+      <h2 className="text-2xl font-semibold mb-4">4. When would you choose to use Edge Functions, Serverless Functions, or Edge
+Middleware with Vercel?:</h2>
+      <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+        <li className="mb-2">
+          <p>
+          Edge Functions: These functions are executed at Vercel&apos;s edge locations close to the user&apos;s origin, providing low latency .  Edge Functions are ideal for scenarios where speed, efficiency, and low latency are crucial, making them suitable for tasks like data fetching or rewrites.
+
+Serverless Functions: Are more mature and widely used, offering global low latency and supporting various regions. They are suitable for scenarios where traditional serverless functions are required, providing flexibility and scalability. However, they may have cold start issues and certain limitations compared to Edge Functions.
+
+Edge Middleware: This intercepts requests before they reach serverless functions, allowing for modifications or updates to requests close to the user&apos;s origin. Edge Middleware runs on Vercel&apos;s edge locations and can be used in conjunction with Serverless functions. It is beneficial for scenarios where intercepting requests and making changes before processing them in serverless functions is necessary.
+          </p>
+        </li>
+    </ol>
+  </div>
+  <div className="w-full max-w-5xl mt-8">
+    <h2 className="text-2xl font-semibold mb-4">5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you&apos;ve not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?:</h2>
+    <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+      <li className="mb-2">
+        <p>
+        I would try to get as much information as I can from the customer like the specific framework or technology involved,  version of the framework or technology they are  using, dependencies or libraries being used, screenshot of error messages or logs, if  the issue started after a particular update or change, steps to reproduce the issue and documentation they are referring.
+        </p>
+      </li>
+  </ol>
+</div>
+<div className="w-full max-w-5xl mt-8">
+  <h2 className="text-2xl font-semibold mb-4">6. The customer from question 5 replies to your response with the below:
+  <br />
+  <br />
+“I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it
+out. It must be a platform issue so just fix it for me instead of asking me questions.”
+<br />
+<br />
+Please write a follow-up reply to the customer.</h2>
+  <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+    <li className="mb-2">
+      <p>
+      Hey there,
+      <br /><br />
+      </p>
+      <p>
+Thank you for getting back to us!
+<br /><br />
+</p>
+<p>
+I’m really sorry to hear about the frustration you’re experiencing. I understand how challenging and time-consuming these issues can be. But I can assure you that I will do my best to help you out.
+<br /><br />
+</p>
+<p>
+To assist you as efficiently as possible, I need a bit more information to identify the exact cause of the problem. This will help us determine if it is indeed a platform issue or something specific to your setup that we can resolve quickly.
+Here’s what would help us move forward:
+</p>
+<p>
+<p>1. Error Messages or Logs: The exact error messages or logs you are seeing can provide crucial clues.</p>
+<p>2. Version, dependencies and the version of the framework you’re using.</p>
+<p>3. If you can recall any recent changes made to your code or environment, it could point us in the right direction.</p>
+<p>4. Steps to replicate the issue and any documentation that you are referring to while working on your Framework.</p>
+</p>
+<br /><br />
+<p>
+I understand that this might feel like extra work, but this information is essential to pinpoint the issue accurately and find a solution as quickly as possible. We’re here to help you through each step of the process.
+</p>
+<br /><br />
+<p>
+Waiting to hear back from you!
+</p>
+<br /><br />
+<p>
+Regards,
+</p>
+<p>
+Damesh
+</p>
+<p>
+Customer Success Engineer
+      </p>
+    </li>
+</ol>
+</div>
+<div className="w-full max-w-5xl mt-8">
+  <h2 className="text-2xl font-semibold mb-4">
+    7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog
+    path to https://example.com?" Please write a reply to the customer. Feel free to add any
+    information about your decision making process after the reply:
+  </h2>
+  <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+    <li className="mb-2">
+      <p>
+        Hi there,
+        <br /><br />
+        Thank you for reaching out to us!
+        <br /><br />
+        To set up a redirect from the /blog path to https://example.com on Vercel, you can use the <code>vercel.json</code> configuration file. Here is an example configuration you can use:
+      </p>
+      <pre>
+        {`{
+  "redirects": [
+    {
+      "source": "/blog",
+      "destination": "https://example.com"
+    }
+  ]
+}`}
+      </pre>
+      <p>
+        For more detailed information, you can refer to our documentation on redirects:
+        <a href="https://vercel.com/docs/projects/project-configuration#redirects" target="_blank" rel="noopener noreferrer">
+          https://vercel.com/docs/projects/project-configuration#redirects
+        </a>
+        <br /><br />
+      </p>
+      <p>
+        If you encounter any issues or have further questions, feel free to reply to this email, and we’ll be happy to assist you.
+        <br /><br />
+      </p>
+      <p>
+        Best regards,<br />
+        Damesh<br />
+        Customer Success Engineer
+      </p>
+    </li>
+  </ol>
+</div>
+<div className="w-full max-w-5xl mt-8">
+  <h2 className="text-2xl font-semibold mb-4">
+    8.A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+  </h2>
+  <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+    <li className="mb-2">
+      <p>
+        Hello there,
+        <br /><br />
+        Thank you for reaching out to us!
+        <br /><br />
+        I'm happy to provide you with the necessary information to help you with your concern regarding indexing.
+        <br /><br />
+        Vercel deployments are not indexed by search engines by default because the <code>X-Robots-Tag</code> HTTP header is set to <code>noindex</code>. However, if you are using a custom domain that is assigned to a non-production branch, the header <code>X-Robots-Tag: noindex</code> will not be set.
+        <br /><br />
+        To confirm the value of the <code>X-Robots-Tag</code> header, you can use the following Curl command:
+        <br /><br />
+        <code>curl -I &lt;preview-deployment-url&gt;</code>
+        <br /><br />
+        Among the output, you will find an <code>X-Robots-Tag</code> header after executing the Curl command:
+        <br /><br />
+        <code>x-robots-tag: noindex</code>
+        <br /><br />
+        If you are using a custom domain for your preview deployments and wish to override the default behavior of omitting <code>X-Robots-Tag: noindex</code>, you should first look to inject the response header using your framework's built-in methods. If you are not using a framework or your framework does not support injecting response headers, you may modify the <code>headers</code> object in your <code>vercel.json</code> file. You can learn more about it using the link below:
+        <br /><br />
+        <a href="https://vercel.com/guides/are-vercel-preview-deployments-indexed-by-search-engines" target="_blank" rel="noopener noreferrer">
+          https://vercel.com/guides/are-vercel-preview-deployments-indexed-by-search-engines
+        </a>
+        <br /><br />
+        Let us know if you have any additional questions. We're happy to help!
+        <br /><br />
+        Regards,<br />
+        Damesh<br />
+        Customer Success Engineer
+      </p>
+    </li>
+  </ol>
+</div>
+<div className="w-full max-w-5xl mt-8">
+  <h2 className="text-2xl font-semibold mb-4">
+    9. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
+  </h2>
+  <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+    <li className="mb-2">
+      <p>
+        I think one of the most common issues customers face is with build problems.
+        <br /><br />
+        In the short-term, I would help the customer fix the issue as soon as possible. This involves troubleshooting the immediate problem, providing step-by-step guidance, and ensuring that their build succeeds.
+        <br /><br />
+        In the long-term, to prevent this issue from recurring, I would explain the root cause of the problem in detail. I would provide the customer with an understanding of why the issue occurred and how it can be prevented in the future. By equipping the customer with this knowledge, they would be able to avoid similar issues going forward.
+      </p>
+    </li>
+  </ol>
+</div>
+<div className="w-full max-w-5xl mt-8">
+  <h2 className="text-2xl font-semibold mb-4">
+    10.How could we improve or alter this familiarisation exercise?
+  </h2>
+  <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
+    <li className="mb-2">
+      <p>
+        No complaints here, it is simple and to the point.
+      </p>
+    </li>
+  </ol>
+</div>
+  </main>
   );
 }

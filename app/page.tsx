@@ -284,8 +284,8 @@ Customer Success Engineer
 </div>
 <div className="w-full max-w-5xl mt-8">
   <h2 className="text-2xl font-semibold mb-4">
-    7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog
-    path to https://example.com?" Please write a reply to the customer. Feel free to add any
+    7. A customer writes in to the Helpdesk asking &quot;How do I do a redirect from the /blog
+    path to https://example.com?&quot; Please write a reply to the customer. Feel free to add any
     information about your decision making process after the reply:
   </h2>
   <ol className="list-decimal list-inside" style={{ listStyleType: "none" }}>
@@ -337,7 +337,7 @@ Customer Success Engineer
         <br /><br />
         Thank you for reaching out to us!
         <br /><br />
-        I'm happy to provide you with the necessary information to help you with your concern regarding indexing.
+        I&apos;m happy to provide you with the necessary information to help you with your concern regarding indexing.
         <br /><br />
         Vercel deployments are not indexed by search engines by default because the <code>X-Robots-Tag</code> HTTP header is set to <code>noindex</code>. However, if you are using a custom domain that is assigned to a non-production branch, the header <code>X-Robots-Tag: noindex</code> will not be set.
         <br /><br />
@@ -349,13 +349,13 @@ Customer Success Engineer
         <br /><br />
         <code>x-robots-tag: noindex</code>
         <br /><br />
-        If you are using a custom domain for your preview deployments and wish to override the default behavior of omitting <code>X-Robots-Tag: noindex</code>, you should first look to inject the response header using your framework's built-in methods. If you are not using a framework or your framework does not support injecting response headers, you may modify the <code>headers</code> object in your <code>vercel.json</code> file. You can learn more about it using the link below:
+        If you are using a custom domain for your preview deployments and wish to override the default behavior of omitting <code>X-Robots-Tag: noindex</code>, you should first look to inject the response header using your framework&apos;s built-in methods. If you are not using a framework or your framework does not support injecting response headers, you may modify the <code>headers</code> object in your <code>vercel.json</code> file. You can learn more about it using the link below:
         <br /><br />
         <a href="https://vercel.com/guides/are-vercel-preview-deployments-indexed-by-search-engines" target="_blank" rel="noopener noreferrer">
           https://vercel.com/guides/are-vercel-preview-deployments-indexed-by-search-engines
         </a>
         <br /><br />
-        Let us know if you have any additional questions. We're happy to help!
+        Let us know if you have any additional questions. We&apos;re happy to help!
         <br /><br />
         Regards,<br />
         Damesh<br />
